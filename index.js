@@ -44,7 +44,7 @@ hed.forEach(function(button) {
 
 var options = {
     strings: [
-    "UI Desiner.","Teame Person",'React Developer.', 'Dedicated Programmer.',"Frontend Enthusiast","Teame Person"
+    "UI Desiner.","Team Person",'React Developer.', 'Dedicated Programmer.',"Frontend Enthusiast","Teame Person"
     ],
     typeSpeed: 150,
     backSpeed:100,

@@ -269,7 +269,7 @@ body {
 }
 .box:nth-child(2) {
     background-color: white;
-    padding: 10vw 5vw 3vw 3vw;
+    padding: 5vw 5vw 3vw 3vw;
 
 }
 .hesding-about-me {
@@ -703,13 +703,18 @@ body {
         left: 0;
         content: "df";
         width: 100%;
-        height: 8vh;
+        height: 9vh;
         z-index: 1999999;
-        background-color: blue;
+        background-color: rgb(139, 32, 246);
         text-align: right;
-        padding: 3.5vh 30vw 2vh 0;
+        padding: .5vh 30vw 9vh 0;
+       
+    }
+    .hadder-strip-mob >span{
         color: white;
         font-size: calc(1rem + 3vw);
+        font-family: 'Sofia';
+        margin-top: -5px;
     }
 
     .first-contianer {
@@ -745,20 +750,20 @@ body {
     }
     .profile-photo {
         width: 400px;
-        height: 57vh;
+        height: 400px;
         /* background: url(./images/profile.png) center;
         background-size: cover; */
-        border-radius: 200px;
-        margin: 20vw 0 0 5vw;
+        /* border-radius: 200px; */
+        margin: 24vw 0 0 5vw;
         overflow: hidden;
-        box-shadow: none;
-        border: 10px solid blue;
+        /* box-shadow: none; */
+        /* border: 10px solid blue; */
 
     }
     .profile-photo > img {
-        box-shadow: none;
-        width: 100%;
-        height: 100%;
+        /* box-shadow: none; */
+        width: 90%;
+        height: 90%;
     }
     .box {
         width: 100%;
@@ -779,7 +784,10 @@ body {
     }
 
 }
+.tech-nologies {
+    bottom:3vw;
 
+}
 .work-on-ttec {
     padding: 3vw 1vw;
 }
@@ -804,7 +812,11 @@ body {
 
 }
 @media (max-width:700px) {
-
+    .hadder-strip-mob {
+      
+        padding: .5vh 30vw 0vh 0;
+       
+    }
     .header {
         height: 100vh;
         width: 100%;
@@ -816,8 +828,9 @@ body {
     }
     .profile-photo {
         width: 300px;
-        height: 48vh;
-        border-radius: 0 0 200px 200px;
+        height: 300px;
+        border-radius:200px;
+        margin-top: 29vw;
 
     }
     #so:checked~.header {
@@ -834,7 +847,7 @@ body {
         font-size: 30px;
         color: white;
         position: fixed;
-        top: 20px;
+        top: 15px;
         left: 20px;
         cursor: pointer;
         z-index: 99999999;
@@ -854,8 +867,8 @@ body {
         display: block;
         margin: 10px;
         padding: 5px;
-        text-align: center;
-        padding: 1vw auto;
+        text-align: left;
+        padding: 1vw 30%;
 
     }
     .nav ul li:hover {
@@ -893,7 +906,7 @@ body {
     }
 
     .tech-nologies {
-        bottom: 14px;
+        bottom:9vw;
         left: 50%;
         transform: translateX(-50%);
     }
